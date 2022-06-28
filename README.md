@@ -3,6 +3,8 @@
 ## About the Project
 Second group project UCONN code camp
 
+Listing service that finds available graphics cards across various websites. (Ex. newegg, amazon, bestbuy)
+
 
 ## Built with:
 #### ∙
