@@ -7,18 +7,17 @@ Listing service that finds available graphics cards across various websites. (Ex
 
 
 ## Built with:
-#### ∙
-#### ∙
-#### ∙
-#### ∙
-#### ∙
+#### ∙ HTML 
+#### ∙ CSS 
+#### ∙ Javascript
+#### ∙ Node.js
+#### ∙ Express.js
+#### ∙ SQL
 
-## Link to github code
-
-
+## Link to github repository
+https://github.com/LKocaj/E-commerce-project
 
 ## Deployed webpage
-
 
 
 ## Contact Information

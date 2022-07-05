@@ -1,0 +1,22 @@
+{
+  "name": "e-commerce-project",
+  "version": "1.0.0",
+  "description": "## About the Project Second group project UCONN code camp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LKocaj/E-commerce-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LKocaj/E-commerce-project/issues"
+  },
+  "homepage": "https://github.com/LKocaj/E-commerce-project#readme",
+  "dependencies": {
+    "express.js": "^1.0.0"
+  }
+}
