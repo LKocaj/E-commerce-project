@@ -1,0 +1,30 @@
+{
+    "graphicscard":  [
+        {
+            "id": 1,
+            "name": "RX 3060",
+            "price": 20000,
+            "imgName":""
+        },
+        {
+            "id": 2,
+            "name": "RX 3070",
+            "price": 20000,
+            "imgName":""
+        },
+        {
+            "id": 3,
+            "name": "RX 3080",
+            "price": 20000,
+            "imgName":""
+        },
+        {
+            "id": 4,
+            "name": "RX 3090",
+            "price": 20000,
+            "imgName":""
+        }
+
+    ]
+
+}
