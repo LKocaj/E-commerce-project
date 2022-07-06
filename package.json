@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/LKocaj/E-commerce-project#readme",
   "dependencies": {
-    "express.js": "^1.0.0"
+    "express.js": "^1.0.0",
+    "handlebars": "^4.7.7"
   }
 }
