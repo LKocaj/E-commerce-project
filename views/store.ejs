@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Graphics Card Finder</title>
+   <!-- CSS -->
+   <link rel="stylesheet" href="style.css">
+   <!--JavaScript-->
+   <script src ="https://checkout.stripe.com/checkout.js" defer></script>
+   <script src="https://js.stripe.com/v3/" defer></script>
+    <script> var stripePublicKey = '<%= stripePublicKey %>'</script>
+   <script src= "store.js" defer></script>
+   
+   <!-- Box Icons -->
+   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <!-- Header -->
+   <header>
+      <div class="nav container">
+         <a href="#" class="logo">Graphics Card Finder</a>
+         <!-- Cart icon -->
+         <i class='bx bx-shopping-bag' id="cart-icon"></i>
+         <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="store">STORE</a></li>
+        </ul>
+      </div>
+   </header>
+  
+   <!-- Shop -->
+   <section class="container content-section">
+    <h2 class="section-header">Graphics Card</h2>
+    <div class="shop-items">
+        <% items.graphicscard.forEach(function(item){ %> 
+            <div class="shop-item" data-item-id="<%= item.id %> ">
+                <span class="shop-item-title"><%= item.name %></span>
+                <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$<%= item.price / 100 %></span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <% }) %> 
+        
+<section class="container content-section">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+
+
+
+</body>
+</html>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
